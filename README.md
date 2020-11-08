@@ -1,2 +1,20 @@
-# Russ-Portfolio
-Week 2: Advanced CSS Challenge: Portfolio Page
+# Russ Portfolio
+
+## Description 
+
+
+
+## Built With
+* HTML
+* CSS
+
+## Site Location
+
+
+## Contribution
+Made by [Russ Tracy]
+
+## Site Image
+
+
+### ©️2020 Russ Tracy
