@@ -1,7 +1,8 @@
 # Russ Portfolio
 
-## Description 
+## Description
 
+This site was designed to showcase all of the work I have done and will do in the future.
 
 
 ## Built With
