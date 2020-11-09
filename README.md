@@ -16,6 +16,6 @@ This site was designed to showcase all of the work I have done and will do in th
 Made by [Russ Tracy]
 
 ## Site Image
-![alt text](assets/images/PortfolioScreenShot.jpg)
+![alt text](./assets/images/PortfolioScreenShot.jpg)
 
 ### ©️2020 Russ Tracy
