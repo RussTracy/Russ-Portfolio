@@ -2,7 +2,7 @@
 body {
 	background: #f9f9f9 url(../images/white_texture.jpg) repeat top left;
 	color: #333;
-	font-family: 'Oswald', Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
 }
 
@@ -85,6 +85,38 @@ a {
 	justify-content: center;
 }
 
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	justify-content: space-around;
+	margin: auto 0;
+	padding-top: 30px;
+	padding-bottom: 260px;
+}
+
+.about h2 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.about p {
+	margin: 20px 0;
+}
+
+.about .text {
+	width: 500px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	padding: 10px 20px;
+}
+
+.about .pic, .about .pic img {
+	width: 250px;
+	border-radius: 20px;
+}
+
 /* Footer Styles */
 
 footer {
@@ -99,18 +131,11 @@ footer {
 	font-size: 1.5vw;
 	border-top: 1px solid #607d8b;
 	align-content: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 }
-
-/* footer a {
-	color: black;
-	border-bottom: 1px solid #607d8b;
-	padding: 4px;
-}
-
-footer a:hover {
-	border-radius: 5px;
-	border: 1px solid #607d8b;
-} */
 
 /* End Footer Styles */
 
