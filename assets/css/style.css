@@ -67,6 +67,7 @@ header nav ul li a:hover, footer a:hover {
 .container {
 	max-width: 1330px;
 	margin: 0 auto;
+	padding-bottom: 100px;
 }
 
 a {
@@ -93,7 +94,6 @@ a {
 	justify-content: space-around;
 	margin: auto 0;
 	padding-top: 30px;
-	padding-bottom: 260px;
 }
 
 .about h2 {
@@ -153,6 +153,7 @@ footer {
 @media screen and (max-width: 676px) {
 	header {
 		justify-content: center;
+		position: relative;
 	}
 	header h1 {
 		width: 100%;
@@ -174,6 +175,7 @@ footer {
 	}
 	footer {
 		flex-flow: column;
+		position: relative;
 	}
 	footer div {
 		text-align: center;
@@ -187,6 +189,7 @@ footer {
 	}
 	footer, header nav ul {
 		flex-flow: column;
+		position: relative;
 	}
 	footer div, header nav ul li {
 		text-align: center;
