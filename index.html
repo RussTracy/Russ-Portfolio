@@ -4,14 +4,18 @@
 <head>
     <!-- UTF-8 vs ASCII allows for symbols emojis and foreign languages -->
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <Title>Russ Tracy Portfolio</Title>
 
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/animation.css" />
+
 </head>
 
 <body>
+
     <header>
         <h1><a href="./index.html">Russ Tracy</a></h1>
         <!-- navigation -->
@@ -21,10 +25,7 @@
                     <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
+                    <a href="#contact">Contact Me</a>
                 </li>
                 <li>
                     <a href="#">Resume</a>
@@ -34,13 +35,13 @@
     </header>
 
     <!-- hero/jumbotron -->
-    <section class="hero">
+    <!-- <section class="hero">
         <img class="pic" src="./assets/images/Russ.jpg" />
         <div class="tagline">Work Hard, Play Awesome!</div>
-    </section>
+    </section> -->
 
     <!-- "About Me" section -->
-    <section id="about-me">
+    <!-- <section id="about-me">
         <article class="flex-row">
             <h2 class="section-title">About Me</h2><br />
             <div class="section-content">
@@ -60,171 +61,186 @@
                 </p>
             </div>
         </article>
-    </section>
+    </section> -->
 
     <!-- "Work" section -->
-    <section id="work">
-        <article class="flex-row">
-            <h2 class="section-title">Work</h2>
-            <div class="section-content">
-                <div class="work-grid">
-                    <div class="work-grid-item main">
-                        <a href="http://www.ocjade.com" target="_blank">
-                            <img src="./assets/images/Ocjade.png" alt="World of Ocjade Game Website" />
-                        </a>
-                        <div class="label">
-                            <h3>Ocjade</h3>
-                            <div class="description">MVC/JavaScript</div>
-                        </div>
-                    </div>
-
-                    <div class="work-grid-item basic">
-                        <a href="https://hunterstrunk.github.io/can-i-bike/" target="_blank">
-                            <img src="./assets/images/CanIBike.png" alt="Can I Bike" />
-                        </a>
-                        <div class="label">
-                            <h3>Can I Bike</h3>
-                            <div class="description">OpenWeather/CityBikes API</div>
-                        </div>
-                    </div>
-
-                    <div class="work-grid-item basic">
-                        <a href="https://russtracy.github.io/Weather-Vane/" target="_blank">
-                            <img src="./assets/images/WeatherVane.png" alt="Weather Vane" />
-                        </a>
-                        <div class="label">
-                            <h3>Weather Vane</h3>
-                            <div class="description">OpenWeather API</div>
-                        </div>
-                    </div>
-
-
-                    <div class="work-grid-item basic">
-                        <a href="https://russtracy.github.io/Git-It-Done/" target="_blank">
-                            <img src="./assets/images/GitItDone.png" alt="Git It Done" />
-                        </a>
-                        <div class="label">
-                            <h3>Git It Done</h3>
-                            <div class="description">Server-Side API</div>
-                        </div>
-                    </div>
-
-
-                    <div class="work-grid-item basic">
-                        <a href="https://russtracy.github.io/Work-Day-Scheduler/" target="_blank">
-                            <img src="./assets/images/WorkDayScheduler.png" alt="Workday Scheduler" />
-                        </a>
-                        <div class="label">
-                            <h3>Workday Scheduler</h3>
-                            <div class="description">jQuery/Moment.js</div>
-                        </div>
-                    </div>
-
-
-                    <div class="work-grid-item basic">
-                        <a href="https://russtracy.github.io/Taskmaster-Pro/" target="_blank">
-                            <img src="./assets/images/TaskMasterPro.png" alt="TaskMaster Pro" />
-                        </a>
-                        <div class="label">
-                            <h3>Taskmaster Pro</h3>
-                            <div class="description">jQuery/BootStrap</div>
-                        </div>
-                    </div>
-                    <div class="work-grid-item basic">
-                        <a href="https://russtracy.github.io/JavaScript-Quiz/" target="_blank">
-                            <img src="./assets/images/JavaScriptQuiz.png" alt="JavaScript Quiz" />
-                        </a>
-                        <div class="label">
-                            <h3>JavaScript Quiz</h3>
-                            <div class="description">JavaScript/Web API</div>
-                        </div>
-                    </div>
-                    <div class="work-grid-item basic">
-                        <a href="https://russtracy.github.io/Taskinator/" target="_blank">
-                            <img src="./assets/images/Taskinator.png" alt="Taskinator" />
-                        </a>
-                        <div class="label">
-                            <h3>Taskinator</h3>
-                            <div class="description">JavaScript/Web API</div>
-                        </div>
-                    </div>
-                    <div class="work-grid-item basic">
-                        <a href="https://russtracy.github.io/Password-Generator/" target="_blank">
-                            <img src="./assets/images/PasswordGenerator.png" alt="Password Generator" />
-                        </a>
-                        <div class="label">
-                            <h3>Password Generator</h3>
-                            <div class="description">JavaScript</div>
-                        </div>
-                    </div>
-                    <div class="work-grid-item basic">
-                        <a href="https://russtracy.github.io/Run-Buddy-2/" target="_blank">
-                            <img src="./assets/images/RunBuddy2.png" alt="Run Buddy 2.0" />
-                        </a>
-                        <div class="label">
-                            <h3>Run Buddy 2.0</h3>
-                            <div class="description">HTML/CSS</div>
-                        </div>
-                    </div>
-
-                    <div class="work-grid-item basic">
-                        <a href="https://russtracy.github.io/Horiseon-Project/" target="_blank">
-                            <img src="./assets/images/Horiseon.png" alt="Horiseon Web Servcies" />
-                        </a>
-                        <div class="label">
-                            <h3>Horiseon</h3>
-                            <div class="description">HTML/CSS</div>
-                        </div>
-                    </div>
-                    <div class="work-grid-item basic">
-                        <a href="https://russtracy.github.io/Run-Buddy/" target="_blank">
-                            <img src="./assets/images/RunBuddy1.png" alt="Run Buddy 1.0" />
-                        </a>
-                        <div class="label">
-                            <h3>Run Buddy 1.0</h3>
-                            <div class="description">HTML/CSS</div>
-                        </div>
-                    </div>
-                    <div class="work-grid-item basic">
-                        <a href="http://www.russtracy.com" target="_blank">
-                            <img src="./assets/images/Recipes.png" alt="Tracy Recipes Website" />
-                        </a>
-                        <div class="label">
-                            <h3>Recipe Book</h3>
-                            <div class="description">MVC/JavaScript</div>
-                        </div>
-                    </div>
-
+    <div class="container">
+        <div class="main">
+            <div class="view view-animation">
+                <img src="./assets/images/Ocjade.png" alt="World of Ocjade Game Website" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Ocjade</h2>
+                    <p>MVC/JavaScript</p>
+                    <a href="http://www.ocjade.com" target="_blank">View Site</a>
                 </div>
             </div>
-        </article>
-    </section>
 
-    <!-- "Contact Me" section -->
-    <section id="contact-me">
-        <article class="flex-row">
-            <h2 class="section-title">Contact Me</h2>
-            <div class="section-content">
-                <div>
-                    <span>801-628-9257</span>
-                </div>
-                <div>
-                    <span><a href="mailto:russ_tracy@comcast.net">russ_tracy@comcast.net</a></span>
-                </div>
-                <div>
-                    <span><a href="https://github.com/RussTracy" target="_blank">GitHub</a></span>
-                </div>
-                <div>
-                    <span><a href="https://www.linkedin.com/in/russtracy" target="_blank">LinkedIn</a></span>
+            <div class="view view-animation">
+                <img src="./assets/images/ServiceTicket.png" alt="Service Ticket Manager" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Service Ticket Manager</h2>
+                    <p>JavaScript/Node/MySQL/Handlebars/MVC</p>
+                    <a href="https://service-ticket-manager.herokuapp.com/" target="_blank">View Site</a>
                 </div>
             </div>
-        </article>
-    </section>
+
+            <div class="view view-animation">
+                <img src="./assets/images/CanIBike.png" alt="Can I Bike" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Can I Bike</h2>
+                    <p>OpenWeather/CityBikes API</p>
+                    <a href="https://hunterstrunk.github.io/can-i-bike/" target="_blank">View Site</a>
+                </div>
+            </div>
+
+            <div class="view view-animation">
+                <img src="./assets/images/WeatherVane.png" alt="Weather Vane" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Weather Vane</h2>
+                    <p>OpenWeather API</p>
+                    <a href="https://russtracy.github.io/Weather-Vane/" target="_blank">View Site</a>
+                </div>
+            </div>
+
+            <div class="view view-animation">
+                <img src="./assets/images/GitItDone.png" alt="Git It Done" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Git It Done</h2>
+                    <p>Server-Side API</p>
+                    <a href="https://russtracy.github.io/Git-It-Done/" target="_blank">View Site</a>
+                </div>
+            </div>
+
+            <div class="view view-animation">
+                <img src="./assets/images/WorkDayScheduler.png" alt="Workday Scheduler" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Workday Scheduler</h2>
+                    <p>jQuery/Moment.js</p>
+                    <a href="https://russtracy.github.io/Work-Day-Scheduler/" target="_blank">View Site</a>
+                </div>
+            </div>
+
+            <div class="view view-animation">
+                <img src="./assets/images/TaskMasterPro.png" alt="TaskMaster Pro" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Taskmaster Pro</h2>
+                    <p>jQuery/BootStrap</p>
+                    <a href="https://russtracy.github.io/Taskmaster-Pro/" target="_blank">View Site</a>
+                </div>
+            </div>
+
+            <div class="view view-animation">
+                <img src="./assets/images/JavaScriptQuiz.png" alt="JavaScript Quiz" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>JavaScript Quiz</h2>
+                    <p>JavaScript/Web API</p>
+                    <a href="https://russtracy.github.io/JavaScript-Quiz/" target="_blank">View Site</a>
+                </div>
+            </div>
+
+            <div class="view view-animation">
+                <img src="./assets/images/Taskinator.png" alt="Taskinator" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Taskinator</h2>
+                    <p>JavaScript/Web API</p>
+                    <a href="https://russtracy.github.io/Taskinator/" target="_blank">View Site</a>
+                </div>
+            </div>
+
+            <div class="view view-animation">
+                <img src="./assets/images/PasswordGenerator.png" alt="Password Generator" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Password Generator</h2>
+                    <p>JavaScript</p>
+                    <a href="https://russtracy.github.io/Password-Generator/" target="_blank">View Site</a>
+                </div>
+            </div>
+
+            <div class="view view-animation">
+                <img src="./assets/images/RunBuddy2.png" alt="Run Buddy 2.0" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Run Buddy 2.0</h2>
+                    <p>HTML/CSS</p>
+                    <a href="https://russtracy.github.io/Run-Buddy-2/" target="_blank">View Site</a>
+                </div>
+            </div>
+
+            <div class="view view-animation">
+                <img src="./assets/images/Horiseon.png" alt="Horiseon Web Servcies" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Horiseon</h2>
+                    <p>HTML/CSS</p>
+                    <a href="https://russtracy.github.io/Horiseon-Project/" target="_blank">View Site</a>
+                </div>
+            </div>
+
+            <div class="view view-animation">
+                <img src="./assets/images/RunBuddy1.png" alt="Run Buddy 1.0" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Run Buddy 1.0</h2>
+                    <p>HTML/CSS</p>
+                    <a href="https://russtracy.github.io/Run-Buddy/" target="_blank">View Site</a>
+                </div>
+            </div>
+
+            <div class="view view-animation">
+                <img src="./assets/images/Recipes.png" alt="Tracy Recipes Website" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Recipe Book</h2>
+                    <p>MVC/JavaScript</p>
+                    <a href="http://www.russtracy.com" target="_blank">View Site</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 
     <!-- footer -->
-    <footer>
-
+    <footer id="contact">
+        <div>
+            801-628-9257
+        </div>
+        <div>
+            <a href="mailto:russ_tracy@comcast.net">russ_tracy@comcast.net</a>
+        </div>
+        <div>
+            <a href="https://github.com/RussTracy" target="_blank">GitHub</a>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/russtracy" target="_blank">LinkedIn</a>
+        </div>
     </footer>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 
 </body>
 
